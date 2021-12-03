@@ -12,12 +12,12 @@ setup(
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8'
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10'
     ],
     keywords='http test unit pydantic declarative',
     packages=find_packages(exclude=['tests']),
     install_requires=[],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
 )
