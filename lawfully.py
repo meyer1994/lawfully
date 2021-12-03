@@ -31,7 +31,6 @@ class Base:
         headers = dict(self.Request.Headers())
 
         res = self.request(json=body, params=params, headers=headers)
-
         self.Response.Body(**res.json())
         self.Response.Headers(**res.headers)
 
